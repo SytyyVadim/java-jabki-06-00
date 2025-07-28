@@ -1,7 +1,14 @@
-import bank.*;
-import delivery.*;
-import zoo.*;
-import game.*;
+import bank.SavingsAccount;
+import bank.CreditAccount;
+import bank.Account;
+import delivery.Drone;
+import delivery.Truck;
+import delivery.Vehicle;
+import zoo.Animal;
+import zoo.Lion;
+import zoo.Parrot;
+import game.Mage;
+import game.Warrior;
 
 import java.util.ArrayList;
 import java.util.List;
