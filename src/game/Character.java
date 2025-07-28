@@ -30,7 +30,7 @@ public class Character {
             if (this.health < 0) {
                 this.health = 0;
             }
-            System.out.println(name + " получает " + damage + " урона. Осталось здоровья: " + health);
+            System.out.println(this.name + " получает " + damage + " урона. Осталось здоровья: " + this.health);
         }
     }
 

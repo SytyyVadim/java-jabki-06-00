@@ -32,7 +32,7 @@ public class Account {
      * @param amount сумма снятия
      */
     public void withdraw(double amount) {
-        if (amount > 0 && amount <= balance) {
+        if (amount > 0 && amount <= this.balance) {
             this.balance -= amount;
         } else {
             System.out.println("Недостаточно средств для снятия.");
@@ -40,10 +40,10 @@ public class Account {
     }
 
     public void displayInfo() {
-        System.out.println("Счёт: " + accountNumber + ", Баланс: " + balance);
+        System.out.println("Счёт: " + this.accountNumber + ", Баланс: " + this.balance);
     }
 
     public double getBalance() {
-        return balance;
+        return this.balance;
     }
 }
